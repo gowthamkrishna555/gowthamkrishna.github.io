@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gowtham Krishna - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             background-color: #f8f9fa;
             margin: 0;
@@ -15,7 +16,7 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
             background-color: #fff;
@@ -25,27 +26,29 @@
             margin-bottom: 20px;
         }
 
-        h1,
-        h2,
-        h3 {
-            color: #333;
+        header {
+            text-align: center;
+            margin-bottom: 20px;
         }
 
-        a {
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
             color: #007bff;
-            text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: underline;
+        header p {
+            font-size: 1.1rem;
+            color: #6c757d;
         }
 
         .project {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .project h3 {
             margin-bottom: 10px;
+            color: #007bff;
         }
 
         .project p {
@@ -53,7 +56,7 @@
             margin-bottom: 10px;
         }
 
-        .highlight {
+        .project .highlight {
             background-color: #f0f0f0;
             padding: 10px;
             border-radius: 5px;
@@ -67,6 +70,13 @@
         .contact ul {
             list-style-type: none;
             padding: 0;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -84,7 +94,8 @@
             <div class="project">
                 <h3>Mapping and Transformation Analysis of Water Bodies using Deep Learning for Coastal Regions of Karnataka</h3>
                 <p><strong>Duration:</strong> January 2024 - May 2024</p>
-                <p>Executed a groundbreaking project focused on combatting water scarcity in coastal regions by employing deep learning methodologies to automate the identification and delineation of water bodies from satellite imagery.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Mapping Water Bodies">
+                <p>Executed a groundbreaking project focused on combating water scarcity in coastal regions by employing deep learning methodologies to automate the identification and delineation of water bodies from satellite imagery.</p>
                 <p><strong>Technologies:</strong> Python, Deep Learning</p>
                 <div class="highlight">
                     <p>Addressing the critical environmental challenges such as rising sea level and shifting shorelines, the initiative provided precise mapping solutions essential for informed decision-making and sustainable water resource management.</p>
@@ -94,6 +105,7 @@
             <div class="project">
                 <h3>Ground Water Analysis</h3>
                 <p><strong>Duration:</strong> January 2024</p>
+                <img src="https://via.placeholder.com/800x400" alt="Ground Water Analysis">
                 <p>The project is based on analyzing the ground data based on the dataset.</p>
                 <p>The project shows us the ground water analysis for the region of Karnataka based on various parameters like water level, chlorine, and many more. (Python, Streamlit)</p>
             </div>
@@ -101,18 +113,21 @@
             <div class="project">
                 <h3>NGO Management Application</h3>
                 <p><strong>Duration:</strong> June 2023</p>
+                <img src="https://via.placeholder.com/800x400" alt="NGO Management App">
                 <p>The project is based on the NGO. The organization can post the events so that the users who wish to be a part of the NGO or the event is known when are where the event takes place basically acts like a bridge between NGO and user. (XML, JAVA, Android Studio, Firebase)</p>
             </div>
 
             <div class="project">
                 <h3>Agriculture Database Management System</h3>
                 <p><strong>Duration:</strong> January 2023 - February 2023</p>
+                <img src="https://via.placeholder.com/800x400" alt="Agriculture Database">
                 <p>Developed and implemented an agriculture database management system enabling farmers to list available produce and facilitating direct buyer-farmer communication, streamlining transactions and enhancing market efficiency (HTML 5, CSS 3, PHP, MySQL, Microsoft Visual Studio Code, XAMPP)</p>
             </div>
 
             <div class="project">
                 <h3>Predicting Heart Disease from clinical data using Machine Learning</h3>
                 <p><strong>Duration:</strong> April 2023</p>
+                <img src="https://via.placeholder.com/800x400" alt="Predicting Heart Disease">
                 <p>Developed a predictive model to detect heart diseases by leveraging machine learning and Python programming.</p>
                 <p>The project involved data processing, cleaning, building predictive algorithms, and evaluating the model’s performance.</p>
                 <p><strong>Technologies Used:</strong> Python, Pandas, NumPy, Matplotlib, Scikit Learn, Google Colab, Evaluation Metrics (Accuracy, Precision, Recall, F1-score, ROC curve)</p>
